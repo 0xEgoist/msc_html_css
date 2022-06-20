@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial';
+    margin: 0;
+}
+.structure-block {
+    height: 140;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    padding: 50px;
+    font-size: 38px;
+    line-height: 40px;
+}
+#header {
+    color: #E50043;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#header p,
+#header ul {
+    margin: 0;
+}
+#header-gap {
+    height: 140px;
+}
+#links li {
+    display: inline;
+    margin: 12.5px;
+}
+#hero-block {
+    height: 950px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    background-image: url(../images/evian_origins_logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero-block span {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #E50043;
+}
+.info-block {
+    width: 1040px;
+    border: 3px solid #F8BFC7;
+    border-radius: 30px;
+    align-self: center;
+    margin: 150px;
+}
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+#description {
+    padding: 24px;
+}
+#description p {
+    margin-top: 0;
+}
+#products {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-image {
+    width: 280px;
+    height: 860px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 48px;
+    
+}
+.product-name {
+    display: block;
+    width: 250px;
+    text-align: center;
+    align-self: center;
+}
+#wang {
+    background-image: url(../images/wang.png);
+}
+#lacroix {
+    background-image: url(../images/blue.png);
+}
+#chiara {
+    background-image: url(../images/chiara.png);
+}
+#composition {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 0px;
+}
+#composition-image {
+    width: 101px;
+    height: 220px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-image: url(../images/glass.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#composition span {
+    display: block;
+}
+#footer {
+    color: white;
+    background-color: #F8BFC7;
+}
