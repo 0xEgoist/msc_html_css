@@ -28,14 +28,12 @@ body {
 #header ul {
     margin: 0;
 }
-#header-gap {
-    height: 140px;
-}
 #links li {
     display: inline;
     margin: 12.5px;
 }
 #hero-block {
+    margin-top: 140px;
     height: 950px;
     position: relative;
     justify-content: center;
@@ -57,7 +55,7 @@ body {
     color: #E50043;
 }
 .info-block {
-    width: 1040px;
+    width: 986px;
     border: 3px solid #F8BFC7;
     border-radius: 30px;
     align-self: center;
@@ -79,8 +77,10 @@ body {
     margin-top: 0;
 }
 #products {
+    width: 1040px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-self: center;
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
@@ -126,11 +126,12 @@ body {
     margin-right: 80px;
     background-image: url(../images/glass.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 #composition span {
     display: block;
+    width: 749px;
 }
 #footer {
     color: white;
